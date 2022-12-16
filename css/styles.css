@@ -1,0 +1,185 @@
+/*******TAG STYLE*********/
+
+body{ 
+    margin:0;
+    color:#40514E;
+    font-family: 'Merriweather',serif;
+    text-align: center;
+    
+    
+}
+
+h1{
+    color: #810CA8;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Orbitron',sans-serif;
+    font-size: 3.125rem;
+    line-height: 2;
+    
+}
+
+h2{
+    color: #810CA8;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #C147E9;
+    font-family: 'Monsterat',sans-serif;
+}
+
+p{
+    line-height:2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 5% auto;
+    
+}
+
+a{
+    color: #C147E9;
+    font-family: 'Monsterat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+/******CLASS STYLE*********/
+.top-container{
+    background-color:  #ffc4f6;;
+    position:relative;
+    padding: 100px 0 50px;
+
+}
+
+.top-container::before {
+    content: "";
+    background-image: url(../images/circuit-board.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25; 
+
+}
+
+.middle-container{
+    background-color: #D09CFA;
+    padding-bottom: 30px;
+
+}
+
+.bottom-container{
+    background-color: #810CA8;
+    padding: 50px 0 20px;
+}
+
+.name{
+    position:relative;
+}
+
+.tag{
+    position:relative;
+
+
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.pro{
+    text-decoration: underline;
+    font-weight: bold;    
+}
+
+.copyright{
+    color:white;
+    font-size: 0.75em;
+    padding: 20px 0 0 0;
+}
+
+.mountain{
+    position:relative;
+    top: 5px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+    
+}
+
+.profile-pic{
+    padding-top:20px;
+    height:25%;
+    width:25%;
+    border-radius: 50%;
+}
+
+.programmer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.process-manager{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.improv{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.btn {
+    background: #db81d8;
+    background-image: -webkit-linear-gradient(top, #db81d8, #9c0ccc);
+    background-image: -moz-linear-gradient(top, #db81d8, #9c0ccc);
+    background-image: -ms-linear-gradient(top, #db81d8, #9c0ccc);
+    background-image: -o-linear-gradient(top, #db81d8, #9c0ccc);
+    background-image: linear-gradient(to bottom, #db81d8, #9c0ccc);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #a314cf;
+    text-decoration: none;
+  }
+
+  .footer-link:hover{
+    color:white;
+  }
+
+
+
+
+
